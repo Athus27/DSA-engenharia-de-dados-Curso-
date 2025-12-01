@@ -11,14 +11,14 @@ from groq import Groq
 
 # Configura a página do Streamlit com título, ícone, layout e estado inicial da sidebar
 st.set_page_config(
-    page_title="DSA AI Coder",
+    page_title="DSA AI Coder", 
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Define um prompt de sistema que descreve as regras e comportamento do assistente de IA
-CUSTOM_PROMPT = """
+CUSTOM_PROMPT = """ 
 Você é o "DSA Coder", um assistente de IA especialista em programação, com foco principal em Python. Sua missão é ajudar desenvolvedores iniciantes com dúvidas de programação de forma clara, precisa e útil.
 
 REGRAS DE OPERAÇÃO:
@@ -153,7 +153,7 @@ st.markdown(
     <div style="text-align: center; color: gray;">
         <hr>
         <p>DSA AI Coder - Parte Integrante do Curso Gratuito Fundamentos de Linguagem Python da Data Science Academy</p>
-    </div>
+    </div>  
     """,
     unsafe_allow_html=True
 )

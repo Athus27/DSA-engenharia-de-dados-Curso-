@@ -8,6 +8,7 @@ def JScase(texto:str) -> str:
     :rtype: str
     """
 
+    # List Comprehension
     palavras = texto.split() #
     JSCpalavras = [palavra.capitalize() for palavra in palavras]
     
@@ -17,6 +18,9 @@ def JScase(texto:str) -> str:
 entrada_teste = "oi tudo bem essa é a entrada de Teste"
 saida_teste = JScase(entrada_teste)
 print (saida_teste )
+
+
+
 
 
  

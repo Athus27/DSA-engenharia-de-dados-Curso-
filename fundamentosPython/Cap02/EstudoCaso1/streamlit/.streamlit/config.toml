@@ -1,0 +1,12 @@
+[theme]
+# Cor oficial do iFood para botões primários e focos
+primaryColor = "#EA1D2C"
+
+# Cor de fundo (opcional, para ficar clean)
+backgroundColor = "#FFFFFF"
+
+# Cor da sidebar (opcional)
+secondaryBackgroundColor = "#F0F0F0"
+
+# Cor do texto
+textColor = "#262626"
