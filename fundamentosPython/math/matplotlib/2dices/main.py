@@ -41,3 +41,7 @@ def main():
 if __name__ == "__main__":
     main()
     
+    
+    # DIFERENÇA:
+    # plt.hist(dados_brutos): Usa quando você tem uma lista crua (ex: [2, 2, 3, 7...]) e quer que o Python conte a frequência.
+    # plt.bar(x, y): Usa quando você JÁ calculou a frequência/probabilidade (seu dicionário) e só quer desenhar as alturas.
