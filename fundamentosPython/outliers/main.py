@@ -17,6 +17,18 @@ def main():
     plt.ylabel("Number of People")
     plt.title("Histogram of Incomes")
     plt.show()
+    
+    
+def rehect_outliers(data):
+    # Função para remover outliers usando o método do desvio interquartil (IQR).
+    quartile_1, quartile_3 = np.percentile(data, [25, 75])
+    iqr = quartile_3 - quartile_1
+    lower_bound = quartile_1 - (1.5 * iqr)
+    upper_bound = quartile_3 + (1.5 * iqr)
+    filtered_data = [x for x in data if lower_bound <= x <= upper_bound]
+    return filtered_data
+
+
 if __name__ == "__main__":
     main()
     
